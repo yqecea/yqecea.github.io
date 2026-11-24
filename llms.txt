@@ -1,0 +1,23 @@
+# Yusuf Kabiden (yqecea)
+
+> 16 y.o. AI & Design Engineer in Astana, Kazakhstan. Runs autonomous multi-agent setups (Hermes + Claude Code / Codex / OpenCode / Antigravity) and ships product UI (Next.js / React / TypeScript / Flutter).
+
+## Canonical identity
+
+- GitHub: https://github.com/yqecea
+- Hub: https://yqecea.github.io/
+- Portfolio: https://yqecea-portfolio.web.app
+- Email: yqecea@gmail.com
+
+## Shipped tools
+
+- skill-doctor: zero-dependency Node CLI that lints agent skill directories across .claude, .agents, .pi, .codex, .gemini, and .opencode layouts. https://github.com/yqecea/skill-doctor
+- sessionlens: browser-only agent trace and token-cost debugger for Claude Code, Codex, and Hermes .jsonl transcripts. https://github.com/yqecea/sessionlens
+- gem-swarm: multi-agent orchestration extension for Gemini CLI with 20 specialist agents and native parallel dispatch. https://github.com/yqecea/gem-swarm
+- vertex-design-system: industrial design system on Geist tokens, 69 components, zero-dependency CSS build. https://github.com/yqecea/vertex-design-system
+- repo-10x: planning-first agent skill for deep repository transformation. https://github.com/yqecea/repo-10x
+
+## Upstream contributions
+
+- Leonxlnx/tastecode: 12 commits merged into upstream main (PR #1211, #1171, UI error-visibility fix). https://github.com/Leonxlnx/tastecode
+- mastra-ai/mastra PR #31167: merged bugfix making the content-similarity evals scorer honor ignoreWhitespace=false, with a 45,311-character exact-score regression test. https://github.com/mastra-ai/mastra/pull/31167
