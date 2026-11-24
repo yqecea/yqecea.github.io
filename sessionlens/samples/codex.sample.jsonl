@@ -1,0 +1,12 @@
+{"type":"session_meta","payload":{"id":"rollout-demo-01","cwd":"/tmp/demo-shop","model":"gpt-5.1-codex"},"timestamp":"2026-11-21T09:00:00.000Z"}
+{"type":"turn_context","payload":{"cwd":"/tmp/demo-shop","approval_policy":"on-request"},"timestamp":"2026-11-21T09:00:01.000Z"}
+{"type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Add a currency formatter and use it in the cart view."}]},"timestamp":"2026-11-21T09:00:05.000Z"}
+{"type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"I will add src/lib/currency.ts and wire it into CartView."}]},"timestamp":"2026-11-21T09:00:12.000Z"}
+{"type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":[\"ls\",\"src/lib\"]}"},"timestamp":"2026-11-21T09:00:13.000Z"}
+{"type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":[\"cat\",\"src/cart/CartView.tsx\"]}"},"timestamp":"2026-11-21T09:00:15.000Z"}
+{"type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":[\"cat\",\"src/lib/currency.ts\"]}"},"timestamp":"2026-11-21T09:00:16.000Z"}
+{"type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":12000,"output_tokens":800,"cached_input_tokens":9000}}},"timestamp":"2026-11-21T09:00:40.000Z"}
+{"type":"event_msg","payload":{"type":"error","message":"sandbox denied write to src/lib/currency.ts"},"timestamp":"2026-11-21T09:00:41.000Z"}
+not a json line at all
+{"type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Retrying the write with the approved patch flow."}]},"timestamp":"2026-11-21T09:00:50.000Z"}
+{"type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":15000,"output_tokens":1200,"cached_input_tokens":14000}}},"timestamp":"2026-11-21T09:01:10.000Z"}
