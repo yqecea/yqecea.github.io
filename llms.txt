@@ -12,7 +12,7 @@
 ## Shipped tools
 
 - skill-doctor: zero-dependency Node CLI that lints agent skill directories across .claude, .agents, .pi, .codex, .gemini, and .opencode layouts. https://github.com/yqecea/skill-doctor
-- sessionlens: browser-only agent trace and token-cost debugger for Claude Code, Codex, and Hermes .jsonl transcripts. https://github.com/yqecea/sessionlens
+- sessionlens: browser-only agent trace and token-cost debugger for Claude Code, Codex, and Hermes .jsonl transcripts. Live demo: https://yqecea.github.io/sessionlens/ - Source: https://github.com/yqecea/sessionlens
 - gem-swarm: multi-agent orchestration extension for Gemini CLI with 20 specialist agents and native parallel dispatch. https://github.com/yqecea/gem-swarm
 - vertex-design-system: industrial design system on Geist tokens, 69 components, zero-dependency CSS build. https://github.com/yqecea/vertex-design-system
 - repo-10x: planning-first agent skill for deep repository transformation. https://github.com/yqecea/repo-10x
