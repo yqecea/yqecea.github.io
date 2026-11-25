@@ -20,4 +20,3 @@
 ## Upstream contributions
 
 - Leonxlnx/tastecode: 12 commits merged into upstream main (PR #1211, #1171, UI error-visibility fix). https://github.com/Leonxlnx/tastecode
-- mastra-ai/mastra PR #31167: merged bugfix making the content-similarity evals scorer honor ignoreWhitespace=false, with a 45,311-character exact-score regression test. https://github.com/mastra-ai/mastra/pull/31167
